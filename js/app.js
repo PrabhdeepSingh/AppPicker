@@ -29,10 +29,6 @@ $(function() {
 	// List of apps to show on page
 	var apps = [
 		{
-			'name': 'App 1',
-			'url': '#'
-		},
-		{
 			'name': 'App 2',
 			'url': '#'
 		},
@@ -106,6 +102,20 @@ $(function() {
 		}
 	}
 	
-	$('#appList').html(appHtml);
+	$('#appList').append(appHtml);
+	
+	$('#switchTheme').click(function(e) {
+		e.preventDefault();
+		if ($(this).data('theme') === 'dark') {
+			$(this).data('theme', 'light');
+			$('link[rel=stylesheet][href*="./css/light.css"]').remove();
+			$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', './css/dark.css') );
+		} else {
+			theme = 'light';
+			$(this).data('theme', 'dark');
+			$('link[rel=stylesheet][href*="./css/dark.css"]').remove();
+			$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', './css/light.css') );
+		}
+	});
 	
 });
