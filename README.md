@@ -1,6 +1,8 @@
 # Introduction
 **AppPicker** - is a fully responsive webapp based on bootstrap. This app is a portal / navigation system to help users navigate to different application an indiviual or company may have.
 
+[Live Demo](https://prabhdeepsingh.github.io/AppPicker/)
+
 #### Application configuration
 This is a basic configuration / setup guide on getting this app up and running on your host.
 - Open `js/app.js` with your favorite text editor
