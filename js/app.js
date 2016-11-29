@@ -1,5 +1,5 @@
 /*!
- * AppPicker 1.0.0 (https://github.com/PrabhdeepSingh/AppPicker)
+ * OneApp 1.0.0 (https://github.com/PrabhdeepSingh/OneApp)
  * Copyright 2016 Prabhdeep Singh.
  * Licensed under the MIT license
  */
@@ -16,7 +16,7 @@ $(function() {
 	 */
 	
 	// Title of the page
-	var pageTitle = 'AppPicker';
+	var pageTitle = 'OneApp';
 	
 	// Theme style Default 'light'
 	// Options: light or dark
