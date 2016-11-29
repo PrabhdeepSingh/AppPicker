@@ -1,7 +1,7 @@
 # Introduction
-**AppPicker** - is a fully responsive webapp based on bootstrap. This app is a portal / navigation system to help users navigate to different application an indiviual or company may have.
+**OneApp** - is a fully responsive webapp based on bootstrap. This app is a portal / navigation system to help users navigate to different application an indiviual or company may have in one view.
 
-[Live Demo](https://prabhdeepsingh.github.io/AppPicker/)
+[Live Demo](https://prabhdeepsingh.github.io/OneApp/)
 
 #### Application configuration
 This is a basic configuration / setup guide on getting this app up and running on your host.
