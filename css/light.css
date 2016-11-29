@@ -1,5 +1,5 @@
 /*!
- * OneApp 1.0.0 (https://prabhdeepsingh.github.io/OneApp/)
+ * OneApp 1.0.0 (https://github.com/PrabhdeepSingh/OneApp)
  * Copyright 2016 Prabhdeep Singh.
  * Licensed under the MIT license
  */
