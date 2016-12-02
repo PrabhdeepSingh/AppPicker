@@ -20,6 +20,6 @@ Variable defination
 Variable | Description
 -------- | -----------
 pageTitle | Title for the page.
-theme | Skin styleing for the app, light or dark.
+theme | Skin styling for the app, light or dark.
 grid | How many apps to show per row, 1, 2, 3, 4, or 6.
 apps | List of application for navigation.
